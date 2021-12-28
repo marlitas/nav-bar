@@ -12,5 +12,14 @@ module.exports = {
     ["@babel/preset-react", { runtime: "automatic" }],
     "@babel/typescript",
   ],
+  "env": {
+    "test": {
+      "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react",
+        "@babel/typescript"
+      ]
+    }
+  },
   plugins: [],
 };
