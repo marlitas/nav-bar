@@ -18,6 +18,7 @@
     "eject": "react-scripts eject"
   },
   "jest": {
+    "testEnvironment": "jsdom",
     "setupFilesAfterEnv": [
       "./src/setup-tests.js"
     ]

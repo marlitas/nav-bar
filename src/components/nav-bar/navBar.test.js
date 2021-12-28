@@ -1,5 +1,5 @@
 import { configure, shallow, mount } from 'enzyme';
-import NavBar from './nav-bar';
+import NavBar from './navBar';
 import React from 'react';
 
 describe('Heading', () => {
