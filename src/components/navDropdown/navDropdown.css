@@ -1,0 +1,46 @@
+.dropdown {
+  width: 25%;
+  text-align: center;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+.content {
+  position: absolute;
+  top: 10vh;
+  background-color: steelblue;
+  text-align: center;
+  width: 100%;
+}
+
+.content ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.content ul a {
+  padding: 15px 0px;
+  width: 100%;
+}
+
+.content ul a:hover {
+  background-color: black;
+  color: white;
+}
+
+.content ul a:active {
+  background-color: black;
+  color: white;
+}

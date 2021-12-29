@@ -1,5 +1,6 @@
 import './navBar.css'
 import {NavLink} from 'react-router-dom'
+import NavDropdown from '../navDropdown/navDropdown'
 
 function navBar({ title }) {
   return (
@@ -8,8 +9,8 @@ function navBar({ title }) {
       <div className="menu">
         <NavLink exact activeClassName='active' to='/'>Home</NavLink>
         <NavLink activeClassName='active' to='/about'>About</NavLink>
-        <NavLink activeClassName='active' to='/media'>Media</NavLink>
         <NavLink activeClassName='active' to='/contact'>Contact</NavLink>
+        <NavDropdown heading='Media'/>
       </div>
     </div>
   )
