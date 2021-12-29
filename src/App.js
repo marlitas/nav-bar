@@ -1,5 +1,7 @@
 import NavBar from './components/nav-bar/navBar'
 import { BrowserRouter  as  Router, Routes, Route } from 'react-router-dom';
+import ClickCounter from './components/ClickCounter/ClickCounter';
+import './App.css'
 
 function App() {
   return (
@@ -8,7 +10,10 @@ function App() {
         <Route 
           path='/'
           element={
-            <NavBar title='My Cool Site'/>
+            <div className='container'>
+              <NavBar title='My Cool Site'/>
+              <ClickCounter text='Click Counts' />
+            </div>
           }>
         </Route>
         <Route 
