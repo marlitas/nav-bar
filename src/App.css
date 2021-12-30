@@ -1,6 +1,8 @@
 .container {
-  display: block;
   width: 100%;
-  height: 100vh;
   padding: 10vh;
+}
+
+.element {
+  margin: 20px;
 }
